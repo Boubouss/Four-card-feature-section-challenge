@@ -1,0 +1,133 @@
+* {
+    box-sizing: border-box;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    margin-left: 150px;
+    margin-right: 150px;
+    background-color: hsl(0, 0%, 98%);
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 30px;
+    text-align: center;
+}
+
+.title {
+    font-size: 2.2em;
+    font-weight: 200;
+    margin-top: 10px;
+    color: hsl(234, 12%, 34%);
+}
+
+.powered {
+    font-weight: 600;
+    font-size: 2.2em;
+    color: hsl(234, 12%, 34%);
+}
+
+.intro {
+    font-size: 1em;
+    font-weight: 200;
+    margin: 10px;
+    color: hsl(229, 6%, 66%);
+}
+
+.gridContainer {
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.box {
+    border: hsl(229, 6%, 66%);
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px hsl(229, 6%, 66%);
+    height: 200px;
+    width: 1fr;
+}
+
+.box h3 {
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: hsl(234, 12%, 34%);
+}
+
+.box p {
+    font-size: 0.8em;
+    font-weight: 400;
+    color: hsl(229, 6%, 66%);
+}
+
+.box img {
+    position: relative;
+    top: 30px;
+    left: 230px;
+}
+
+.decal {
+    position: relative;
+    top: 15px;
+}
+
+.supervisor {
+    grid-row: 2 / 4;
+}
+
+.team {
+    grid-row: 1 / 3;
+}
+
+.karma {
+    grid-row: 3 / 5;
+}
+
+.calculator {
+    grid-row: 2 / 4;
+}
+
+.bar {
+    height: 13px;
+    width: 347px;
+    z-index: -1;
+    border-radius: 10px;
+    position: absolute;
+}
+
+.blue {
+    background-color: hsl(212, 86%, 64%);
+    bottom: 404px;
+    left: 927px;
+}
+
+.red {
+    background-color: hsl(0, 78%, 62%);
+    left: 547px;
+    bottom: 519px;
+}
+
+.cyan {
+    background-color: hsl(180, 62%, 55%);
+    left: 167px;
+    bottom: 404px;
+}
+
+.orange {
+    background-color: hsl(34, 97%, 64%);
+    left: 547px;
+    bottom: 289px;
+}
